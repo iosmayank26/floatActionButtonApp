@@ -15,6 +15,9 @@
 		C09543C01E5E049500E15212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09543BE1E5E049500E15212 /* LaunchScreen.storyboard */; };
 		C09543CB1E5E049500E15212 /* FloatingButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09543CA1E5E049500E15212 /* FloatingButtonTests.swift */; };
 		C09543D61E5E049500E15212 /* FloatingButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09543D51E5E049500E15212 /* FloatingButtonUITests.swift */; };
+		C09543E41E5E04AF00E15212 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = C09543E31E5E04AF00E15212 /* podfile */; };
+		C09543E81E5E061200E15212 /* Contacts Filled.png in Resources */ = {isa = PBXBuildFile; fileRef = C09543E71E5E061200E15212 /* Contacts Filled.png */; };
+		C7107EC4C1CF4DFF1A40172C /* Pods_FloatingButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5D7C10C5AF0CA48F8A9B33 /* Pods_FloatingButton.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C5D7C10C5AF0CA48F8A9B33 /* Pods_FloatingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloatingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09543AF1E5E049500E15212 /* FloatingButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09543B21E5E049500E15212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C09543B41E5E049500E15212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		C09543D11E5E049500E15212 /* FloatingButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09543D51E5E049500E15212 /* FloatingButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonUITests.swift; sourceTree = "<group>"; };
 		C09543D71E5E049500E15212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09543E31E5E04AF00E15212 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		C09543E71E5E061200E15212 /* Contacts Filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contacts Filled.png"; sourceTree = "<group>"; };
+		E21B6AC7A4375AFA753B71C8 /* Pods-FloatingButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-FloatingButton/Pods-FloatingButton.release.xcconfig"; sourceTree = "<group>"; };
+		F32028BF62DAAA07AFBEDFB8 /* Pods-FloatingButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FloatingButton/Pods-FloatingButton.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7107EC4C1CF4DFF1A40172C /* Pods_FloatingButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +85,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B234F71301FBC2500874A37A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F32028BF62DAAA07AFBEDFB8 /* Pods-FloatingButton.debug.xcconfig */,
+				E21B6AC7A4375AFA753B71C8 /* Pods-FloatingButton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C09543A61E5E049500E15212 = {
 			isa = PBXGroup;
 			children = (
+				C09543E31E5E04AF00E15212 /* podfile */,
 				C09543B11E5E049500E15212 /* FloatingButton */,
 				C09543C91E5E049500E15212 /* FloatingButtonTests */,
 				C09543D41E5E049500E15212 /* FloatingButtonUITests */,
 				C09543B01E5E049500E15212 /* Products */,
+				B234F71301FBC2500874A37A /* Pods */,
+				C316F606611C7E3768C7ACBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +123,7 @@
 				C09543B21E5E049500E15212 /* AppDelegate.swift */,
 				C09543B41E5E049500E15212 /* ViewController.swift */,
 				C09543B61E5E049500E15212 /* Main.storyboard */,
+				C09543E71E5E061200E15212 /* Contacts Filled.png */,
 				C09543BC1E5E049500E15212 /* Assets.xcassets */,
 				C09543BE1E5E049500E15212 /* LaunchScreen.storyboard */,
 				C09543C11E5E049500E15212 /* Info.plist */,
@@ -128,6 +150,14 @@
 			path = FloatingButtonUITests;
 			sourceTree = "<group>";
 		};
+		C316F606611C7E3768C7ACBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C5D7C10C5AF0CA48F8A9B33 /* Pods_FloatingButton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C09543DA1E5E049500E15212 /* Build configuration list for PBXNativeTarget "FloatingButton" */;
 			buildPhases = (
+				C59F0ECB4C7DA226C6A5157E /* [CP] Check Pods Manifest.lock */,
 				C09543AB1E5E049500E15212 /* Sources */,
 				C09543AC1E5E049500E15212 /* Frameworks */,
 				C09543AD1E5E049500E15212 /* Resources */,
+				BD7AC6AEEB46145293544F24 /* [CP] Embed Pods Frameworks */,
+				E5CB60251F0E55155A461A40 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,7 +273,9 @@
 			files = (
 				C09543C01E5E049500E15212 /* LaunchScreen.storyboard in Resources */,
 				C09543BD1E5E049500E15212 /* Assets.xcassets in Resources */,
+				C09543E41E5E04AF00E15212 /* podfile in Resources */,
 				C09543B81E5E049500E15212 /* Main.storyboard in Resources */,
+				C09543E81E5E061200E15212 /* Contacts Filled.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +294,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD7AC6AEEB46145293544F24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FloatingButton/Pods-FloatingButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59F0ECB4C7DA226C6A5157E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5CB60251F0E55155A461A40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FloatingButton/Pods-FloatingButton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C09543AB1E5E049500E15212 /* Sources */ = {
@@ -417,6 +500,7 @@
 		};
 		C09543DB1E5E049500E15212 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F32028BF62DAAA07AFBEDFB8 /* Pods-FloatingButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 46G4AVJ357;
@@ -430,6 +514,7 @@
 		};
 		C09543DC1E5E049500E15212 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21B6AC7A4375AFA753B71C8 /* Pods-FloatingButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 46G4AVJ357;
@@ -518,6 +603,7 @@
 				C09543DC1E5E049500E15212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C09543DD1E5E049500E15212 /* Build configuration list for PBXNativeTarget "FloatingButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +612,7 @@
 				C09543DF1E5E049500E15212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C09543E01E5E049500E15212 /* Build configuration list for PBXNativeTarget "FloatingButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +621,7 @@
 				C09543E21E5E049500E15212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
